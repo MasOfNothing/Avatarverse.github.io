@@ -95,7 +95,7 @@ main iframe {
 
 .tabletitle p,
 .tableitems p {
-    flex: 1 0 150px;
+    flex: 1 0 100px;
     padding: 1em 0.5em;
     border: solid 2px white;
     text-align: center;
@@ -303,7 +303,7 @@ li .copytext {
 
     .tabletitle p,
     .tableitems p {
-        flex: 1 0 100px;
+        flex: 1 0 85px;
         font-size: 0.8em;
         padding: 0.5em 0.3em;
     }
