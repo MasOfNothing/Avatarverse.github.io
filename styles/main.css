@@ -75,6 +75,10 @@ main li a {
     text-indent: 0;
 }
 
+main iframe {
+    max-width: 100%;
+}
+
 .table {
     margin: 0 auto;
     overflow-x: scroll;
