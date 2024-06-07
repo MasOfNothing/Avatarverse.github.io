@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monda&display=swap">
+    <script src="https://kit.fontawesome.com/dd8e71c06a.js" crossorigin="anonymous"></script>
+    <title>Combat & Jailing - Avatarverse Wiki</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt="Avatarverse Logo"></a>
+        </section>
+        <section class="headertext">
+            <h1>Avatarverse Wiki</h1>
+            <h2>Documentation and insights</h2>
+        </section>
+        <section>
+            <a href="https://www.minecraft.net"><img src="../../images/minecraft logo.png" alt="Minecraft Logo"></a>
+        </section>
+    </header>
+    <div class="pagecontainer">
+        <nav>
+            <section class="nav1">
+                <h4>The World</h4>
+                <ul>
+                    <li><a href="../../index.html">Introduction</a></li>
+                    <li><a href="../theWorld/map.html">Map</a></li>
+                    <li><a href="../theWorld/nations.html">Nations</a></li>
+                    <li><a href="../theWorld/mobs.html">Mobs</a></li>
+                </ul>
+            </section>
+            <section class="nav2">
+                <div class="bgimg">
+                    <h4>Roleplay</h4>
+                    <ul>
+                        <li><a href="../roleplay/characters.html">Characters</a></li>
+                        <li><a href="../roleplay/bending.html">Bending</a></li>
+                        <li><a href="../roleplay/chatSystem.html">Chat System</a></li>
+                        <li><a href="../roleplay/combatJailing.html" class="selectedblue">Combat & Jailing</a></li>
+                        <li><a href="../roleplay/brewing.html">Brewing</a></li>
+                        <li><a href="../roleplay/lockingSystem.html">Locking System</a></li>
+                        <li><a href="../roleplay/resourcePack.html">Resource Pack</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="nav3">
+                <h4>Rules & Gameplay</h4>
+                <ul>
+                    <li><a href="../rulesgameplay/generaRules.html">General Rules</a></li>
+                    <li><a href="../rulesgameplay/rpc.html">The Roleplay Council</a></li>
+                    <li><a href="../rulesgameplay/ruleOfWar.html">Rules of War</a></li>
+                    <li><a href="../rulesgameplay/commands.html">Commands</a></li>
+                </ul>
+            </section>
+            <section class="nav4">
+                <h4>Archives</h4>
+                <ul>
+                    <li><a href="../archives/timeline.html">Roleplay Timeline</a></li>
+                    <li><a href="../archives/historyAcknowledgements.html">Server History & Acknowlegements</a></li>
+                    <li><a href="../archives/faq.html">FAQ</a></li>
+                </ul>
+            </section>
+            <section class="nav5">
+                <ul>
+                    <h4>Social Media</h4>
+                    <li><a target="_blank" href="https://www.youtube.com/@avatarversemc" class="media"><i
+                                class="fa-brands fa-square-youtube"></i>Youtube</a></li>
+                    <li><a target="_blank" href="https://www.tiktok.com/@play.avatarverse.net" class="media"><i
+                                class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/avatarversemc/" class="media"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li><a target="_blank" href="https://disboard.org/server/join/607348576045105162" class="media"><i
+                                class="fa-brands fa-discord"></i>Discord</a></li>
+                </ul>
+            </section>
+            <section class="nav6">
+                <h4>Links</h4>
+                <ul>
+                    <li><a target="_blank" href="https://store.avatarverse.net/">Store Page</a></li>
+                    <li><a target="_blank" href="https://avatarverse.net/">Community Forum</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <main>
+            <h3>Combat & Jailing</h3>
+            <section>
+                <p>Avatarverse has unique combat mechanics, which are integral to understanding wars and personal safety
+                    on the server.</p>
+            </section>
+            <section>
+                <h4>Combat tag</h4>
+                <p>If you are attacked or you attack someone, you will be placed in a 15-second combat tag. During that
+                    time you will be unable to use certain commands that might aid you to escape.</p>
+                <p>Any attempt to leave the game while will combat
+                    tagged automatically knocks you out when you rejoin.</p>
+            </section>
+            <section>
+                <h4>Knockouts</h4>
+                <p>Under normal circumstances, if your health reaches zero, you are knocked out. This means you are
+                    forced to lie down on the ground (if possible) and cannot move, move items in your inventory, attack
+                    people, or get attacked. This
+                    state lasts 60 seconds.</p>
+                <p>You are also vulnerable to a number of threats:</p>
+                <ul class="dashList">
+                    <li>People can sneak & right-click on your body to open
+                        your inventory and take any item out of it.</li>
+                    <li>You can also be <a href="#shackles">handcuffed, shackled, or gagged</a>.</li>
+                </ul>
+                <p>If you leave the game while knocked out, you will be knocked out again when you rejoin the server and
+                    have to endure another 60 seconds.</p>
+                <p>Being knocked out also prevents you from using certain commands:</p>
+                <ul id="blockedMessage">
+                    <li><span class="bold">OOC Messaging:</span> <span class="cmd">/message</span>, <span
+                            class="cmd">/tell</span>, etc.</li>
+                    <li><span class="bold">IC Messaging:</span> <span class="cmd">/bird</span></li>
+                    <li><span class="bold">Teleport:</span> <span class="cmd">/home</span></li>
+                    <li><span class="bold">Map:</span> <span class="cmd">/dynmap</span></li>
+                    <li><span class="bold">Inventory:</span> <span class="cmd">/hat</span></li>
+                </ul>
+            </section>
+            <section>
+                <h4>Duels</h4>
+                <p>Duels are a way one can avoid being knocked out when the health bar reaches zero. They are designed
+                    for quick, friendly spars so you don't have to wait for the knockout to end when someone loses the
+                    duel.</p>
+                <p>To duel someone, send a duel request with <span class="cmd">/duel &lt;character&gt;</span>. They will
+                    have the opportunity of accepting it with the same command (with your character name instead of
+                    theirs),
+                    or denying it just by ignoring it.</p>
+                <figure>
+                    <img src="../../images/combatjailing/duelmessage.PNG"
+                        alt="Message received when someone requests a duel">
+                    <figcaption>Message received when someone requests to duel with you</figcaption>
+                </figure>
+
+                <h5 class="bold" id="dttd">Duel To The Death</h5>
+                <p>Duels to the Death (DttDs) are a special type of duel. When you get knocked out in a DttD, the winner
+                    of the duel will have the option to land the final blow, ultimately killing your character, or wait
+                    out the knockout period to spare you from death.</p>
+                <p>You can duel to the death with someone by requesting and accepting with <span class="cmd">/duel
+                        &lt;character&gt; death</span>.</p>
+                <figure>
+                    <img src="../../images/combatjailing/dttdmessage.PNG"
+                        alt="Message received when someone requests a duel to the death">
+                    <figcaption>Message received when someone requests a duel to the death</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h4>Hunts</h4>
+                <p>The main way of killing someone without their consent is by starting a hunt. Using <span
+                        class="cmd">/murder &lt;character&gt;</span> or <span class="cmd">/hunt &lt;character&gt;</span>
+                    will give you an item, the Murderer's Knife. You can only begin a hunt against someone who is not
+                    knocked out and has at least 5 yearts of health.</p>
+                <p>After acquiring the
+                    knife, you will have 30 minutes to hit the person you are hunting with the knife while they are
+                    knocked out, which will
+                    <a href="../roleplay/characters.html#death">kill them</a>. You cannot escape a hunt by logging out,
+                    the timer will only countdown when both the hunter and the person being hunted are online.
+                <p>If you're successful in hunting before the time is up, you'll have to wait 3 days before you can
+                    hunt again. If you're unsuccessful, you'll have to wait 5 days.</p>
+                </p>
+            </section>
+            <section>
+                <h4 id="shackles">Restraining People</h4>
+                <p>
+                    Certain craftable items can be used on someone who is knocked out in order to limit their movement
+                    and bending once they are awake to make them easier to control.
+                </p>
+                <p>There are three different types of restraining items:</p>
+                <ul>
+                    <li><span class="bold">Handcuffs</span> which go on people's chest slots.</li>
+                    <li><span class="bold">Shackles</span> which go on people's feet slots</li>
+                    <li><span class="bold">Gags</span> which go on people's heat slots</li>
+                </ul>
+                <p>Handcuffs have the following effects on people:</p>
+                <ul class="dashList">
+                    <li>Inability to punch other entities</li>
+                    <li>Limited interactions with hands</li>
+                    <li>Ability to be dragged to another location by anyone</li>
+
+                </ul>
+
+                <p>Shackles have the following effects on people:</p>
+                <ul class="dashList">
+                    <li>Slowness <span class="bold">II</span></li>
+                    <li>Inability to use bending abilities that require sneaking</li>
+                </ul>
+
+                <p>Gags have the following effects on people:</p>
+                <ul class="dashList">
+                    <li>All messages on chat will appear as: <span class="bold">*muffled*</span>, preventing from
+                        speaking.</li>
+                    <li>Inability to use <span class="bold">Breath</span> abilities (ex: AirBreath, Frostbreath,
+                        FlameBreath...)</li>
+                </ul>
+
+                <p>Additionally all the <a href="#blockedMessage">commands blocked during knock-out</a> are also blocked
+                    when handcuffed or shackled.
+                </p>
+
+                <h5 class="bold">Dragging a Handcuffed Person</h5>
+                <p>To drag a handcuffed person, tap sneak while looking at them to start dragging them. They will be
+                    teleported wherever you go. Do to stop dragging someone, tap sneak while looking at them again.
+                    Dragging is interrupted if you take damage.</p>
+
+                <h5 class="bold">Unlocking Handcuffs and Shackles</h5>
+                <p>Shackles and Handcuffs can be <span class="bold">unlocked</span> with the use of a <span
+                        class="bold">key item</span> that is generated when shackles or handcuffs are placed on someone.
+                    They key will
+                    only work for the specific shackle/handcuff it was generated for. Right click on a
+                    shackled/handcuffed person with the
+                    right key to unlock it.</p>
+
+                <h5 class="bold">Removing a gag</h5>
+                <p>You can remove someone's gag by right-clicking on them with an empty hand.</p>
+
+                <h5>Escaping Restrain</h5>
+                <p>There are ways to escape shackles, but most require a lot of work:</p>
+                <ul class="dashList">
+                    <li><span class="bold">Any handcuff and shackle</span> can take a little bit of damage if you
+                        <span class="bold">repeatedly left-click</span>, as if you're hitting them against an object.
+                        This
+                        won't work for every punch and will damage you as well.
+                    </li>
+                    <li><span class="bold">Any handcuff</span> will take damage from holding sneak with <span
+                            class="bold">HeatControl</span> (burning/melting the Handcuffed)</li>
+                    <li><span class="bold">Wooden handcuffs and shackles</span> will take damage if you hold sneak
+                        with
+                        <span class="bold">FrostBreath</span>
+                    </li>
+                    <li><span class="bold">Iron handcuffs and shackles</span> are escapable when holding sneak with
+                        any
+                        <span class="bold">metalbending</span> move
+                    </li>
+                </ul>
+                <h5 class="bold">Crafting Recipes</h5>
+                <div class="doubleimg">
+                    <figure>
+                        <p>Wooden Handcuffs</p>
+                        <img src="../../images/combatjailing/woodenhandcuff.png" alt="Wooden Handcuffs crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Wooden Shackles</p>
+                        <img src="../../images/combatjailing/woodenshackle.png" alt="Wooden Shackle crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Iron Handcuffs</p>
+                        <img src="../../images/combatjailing/ironhandcuff.png" alt="Iron Handcuff crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Iron Shackle</p>
+                        <img src="../../images/combatjailing/ironshackle.png" alt="Iron Shackle crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Platinum Handcuffs</p>
+                        <img src="../../images/combatjailing/platinum_handcuffs.png"
+                            alt="Platinum Handcuff crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Platinum Shackles</p>
+                        <img src="../../images/combatjailing/platinum_shackles.png"
+                            alt="Platinum Shackles crafting recipe">
+                    </figure>
+                    <figure>
+                        <p>Gag</p>
+                        <img src="../../images/combatjailing/gag.png" alt="Gag crafting recipe">
+                    </figure>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt=""></a>
+            <span>&copy 2024 Rights Reserved</span>
+        </section>
+        <section>
+            <span class="links">Links</span>
+            <a target="_blank" href="https://store.avatarverse.net/">Store Page</a>
+            <a target="_blank" href="https://avatarverse.net/">Community Forum</a>
+        </section>
+    </footer>
+
+</body>
+
+</html>

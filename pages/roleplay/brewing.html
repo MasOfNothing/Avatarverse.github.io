@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monda&display=swap">
+    <script src="https://kit.fontawesome.com/dd8e71c06a.js" crossorigin="anonymous"></script>
+    <title>Brewing - Avatarverse Wiki</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt="Avatarverse Logo"></a>
+        </section>
+        <section class="headertext">
+            <h1>Avatarverse Wiki</h1>
+            <h2>Documentation and insights</h2>
+        </section>
+        <section>
+            <a href="https://www.minecraft.net"><img src="../../images/minecraft logo.png" alt="Minecraft Logo"></a>
+        </section>
+    </header>
+    <div class="pagecontainer">
+        <nav>
+            <section class="nav1">
+                <h4>The World</h4>
+                <ul>
+                    <li><a href="../../index.html">Introduction</a></li>
+                    <li><a href="../theWorld/map.html">Map</a></li>
+                    <li><a href="../theWorld/nations.html">Nations</a></li>
+                    <li><a href="../theWorld/mobs.html">Mobs</a></li>
+                </ul>
+            </section>
+            <section class="nav2">
+                <h4>Roleplay</h4>
+                <ul>
+                    <li><a href="../roleplay/characters.html">Characters</a></li>
+                    <li><a href="../roleplay/bending.html">Bending</a></li>
+                    <li><a href="../roleplay/chatSystem.html">Chat System</a></li>
+                    <li><a href="../roleplay/combatJailing.html">Combat & Jailing</a></li>
+                    <li><a href="../roleplay/brewing.html" class="selectedblue">Brewing</a></li>
+                    <li><a href="../roleplay/lockingSystem.html">Locking System</a></li>
+                    <li><a href="../roleplay/resourcePack.html">Resource Pack</a></li>
+                </ul>
+            </section>
+            <section class="nav3">
+                <h4>Rules & Gameplay</h4>
+                <ul>
+                    <li><a href="../rulesgameplay/generaRules.html">General Rules</a></li>
+                    <li><a href="../rulesgameplay/rpc.html">The Roleplay Council</a></li>
+                    <li><a href="../rulesgameplay/ruleOfWar.html">Rules of War</a></li>
+                    <li><a href="../rulesgameplay/commands.html">Commands</a></li>
+                </ul>
+            </section>
+            <section class="nav4">
+                <h4>Archives</h4>
+                <ul>
+                    <li><a href="../archives/timeline.html">Roleplay Timeline</a></li>
+                    <li><a href="../archives/historyAcknowledgements.html">Server History & Acknowlegements</a></li>
+                    <li><a href="../archives/faq.html">FAQ</a></li>
+                </ul>
+            </section>
+            <section class="nav5">
+                <ul>
+                    <h4>Social Media</h4>
+                    <li><a target="_blank" href="https://www.youtube.com/@avatarversemc" class="media"><i
+                                class="fa-brands fa-square-youtube"></i>Youtube</a></li>
+                    <li><a target="_blank" href="https://www.tiktok.com/@play.avatarverse.net" class="media"><i
+                                class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/avatarversemc/" class="media"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li><a target="_blank" href="https://disboard.org/server/join/607348576045105162" class="media"><i
+                                class="fa-brands fa-discord"></i>Discord</a></li>
+                </ul>
+            </section>
+            <section class="nav6">
+                <h4>Links</h4>
+                <ul>
+                    <li><a target="_blank" href="https://store.avatarverse.net/">Store Page</a></li>
+                    <li><a target="_blank" href="https://avatarverse.net/">Community Forum</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <main>
+            <h3>Brewing</h3>
+            <section>
+                <h4>Introduction</h4>
+                <p>Unlike in vanilla Minecraft, brewing is not as easy as adding an ingredient to a brewing stand and
+                    waiting for it to finish.</p>
+                <p>Depending on the recipe the whole process can be difficult and time
+                    consuming. Some recipes may need a high precision when it comes to ingredients or any other step in
+                    the process. If one step was not good enough, the quality of the potions may suffer, leading to side
+                    effects like bad alcohol and other toxics.</p>
+
+                <p>Depending on the recipe, some steps may not be needed, the following instruction describes the common
+                    procedure of brewing.</p>
+            </section>
+            <section>
+                <h4>Fermenting</h4>
+                <p>Step one consists of Fermenting the fresh ingredients:</p>
+                <ul>
+                    <li><span class="bold">Step 1:</span> Place cauldron over a fire or other heat source</li>
+                    <li><span class="bold">Step 2:</span> Fill it with water</li>
+                    <li><span class="bold">Step 3:</span> Add ingredients with right click</li>
+                    <li><span class="bold">Step 4:</span> Wait a few minutes while they ferment</li>
+                    <li><span class="bold">Step 5:</span> Fill in glass bottles</li>
+                </ul>
+                <figure>
+                    <img src="../../images/brewing/ferment.png" alt="Image of a couldron fermenting ingredients">
+                    <figcaption>Cauldron fermenting ingredients</figcaption>
+                </figure>
+                <p>Use a <span class="bold">clock</span> on the cauldron to get the amount of time the ingredients have
+                    been fermenting.</p>
+            </section>
+
+            <section>
+                <h4>Distilling</h4>
+                <p>Keep in mind that some recipes do not require distilling.</p>
+                <ul>
+                    <li><span class="bold">Step 1:</span> Put the bottle with fermented content into the brewing stand
+                    </li>
+                    <li><span class="bold">Step 2:</span> Put glowstone dust as a filter on top of the brewing stand
+                        (The filter will not be consumed)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Aging</h4>
+                <p>A barrel is needed for aging.</p>
+
+                <h5 class="bold">Minecraft barrel | <span class="italic">6 Slots</span></h5>
+                <figure class="smallimg">
+                    <img src="../../images/brewing/barrel.png" alt="Minecraft barrel">
+                </figure>
+                <p>The <a href="https://minecraft.fandom.com/wiki/Barrel">Minecraft barrel</a> can be used for aging
+                    of
+                    a few brews. Simply craft and place the barrel then put the brews inside.</p>
+
+                <h5 class="bold">Small barrel | <span class="italic">9 Slots</span></h5>
+                <div class="togetherimg">
+                    <figure>
+                        <img src="../../images/brewing/smallbarrel.png" alt="Small Barrel Side">
+                    </figure>
+                    <figure>
+                        <img src="../../images/brewing/smallbarrel2.png" alt="Small Barrel Front">
+                    </figure>
+                </div>
+                <p>Use 8 wooden stairs to build a barrel shape as shown above.</p>
+                <p>Place a sign on the lower right side and write " <span class="bold">Barrel</span> " in the upper
+                    line. A message "Barrel created" should appear.</p>
+
+                <h5 class="bold">Big barrel | <span class="italic">27 Slots</span></h5>
+                <div class="togetherimg">
+                    <figure>
+                        <img src="../../images/brewing/bigbarrel.png" alt="Big Barrel Side">
+                    </figure>
+                    <figure>
+                        <img src="../../images/brewing/bigbarrel2.png" alt="Big Barrel Complete">
+                    </figure>
+                </div>
+                <p>Use 4 fences, 16 wooden stairs, and 18 wooden planks to build a barrel shape as shown above.
+                    Attach a
+                    spigot(5th fence) and a sign that has "<span class="bold">Barrel</span>" written on it in the upper
+                    line as shown
+                    above.
+                </p>
+                <p>Message "Barrel created" should appear</p>
+                <p><span class="bold">You may remove the sign from the Big Barrel after creating it.</span></p>
+
+                <h5 class="bold">Using the barrel</h5>
+                <ul class="dashList">
+                    <li>Open the barrel by clickin on it</li>
+                    <li>For every Minecraft day, the brews will age a year</li>
+                    <li>Depending on the recipe, the type of wood used for building the barrel may alter the quality
+                        of the age brew</li>
+                    <li>The Minecraft barrel is alwats of wood type: Oak</li>
+                    <li>The barrels can be locked by using <span class="cmd">/lock</span> or <span
+                            class="cmd">/cprivate</span> on the sign of the barrel.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Drinking</h4>
+                <p>The Amount of alcohol inside the brew will be applied to the player when drinking. Depending on the
+                    quality of it, that may have different effects.</p>
+                <ul class="dashList">
+                    <li>The player may not be able to walk normally anymore, he will weave, making it almost
+                        impossible to walk straight</li>
+                    <li>Effects like Blindness, Confusion, Poison etc. occur</li>
+                    <li>The chat will be altered depending on drunkeness, many things players write may be
+                        incomprehensible, sometimes it seems senseless</li>
+                    <li>If the alcohol particularly strong, it may have poisonous effects</li>
+                    <li>After drinking a lot, there is a chance of vomiting</li>
+                    <li>When logging off, the player may have difficulties reaching his character, thus some logins
+                        shortly after may be denied</li>
+                    <li>After overdrinking the player may faint (disconnect)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Getting Sober</h4>
+                <p>After drinking it takes a while until the alcohol is completely gone. During that time the alcohol
+                    level is steadily decreasing. Also it can be decreased through the consumption of coffee.</p>
+                <ul class="dashList">
+                    <li>When logging off extremely drunk, it may happen that, if the player logs back in after a
+                        while, he may find himself at a completely unknown place in the middle of nowhere having no
+                        idea how he got there</li>
+                    <li>But if he logs back in after some hours or next morning, he will find himself at <span
+                            class="cmd">/home</span>, again
+                        without any memories</li>
+                    <li>Also if the alcohol was not of best quality, the player may face some bad type of hangover
+                        (slowness and hunger)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Recipes</h4>
+                <p>Some recipes are more difficult to master, others rather easy. That's also why some of the recipes
+                    here are kept a bit more vague.</p>
+
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Recipe</p>
+                        <p>Ingredients</p>
+                        <p>Boiling Time</p>
+                        <p>Distilling</p>
+                        <p>Ageing/Wood</p>
+                        <p>Alc</p>
+                        <p>Effects</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Beer</p>
+                        <p>6 Wheat</p>
+                        <p>8 Minutes</p>
+                        <p>No</p>
+                        <p>3 Years<br>Any</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Wheatbeer</p>
+                        <p>3 Wheat</p>
+                        <p>8 Minutes</p>
+                        <p>No</p>
+                        <p>2 Years<br>Birch</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Darkbeer</p>
+                        <p>6 Wheat</p>
+                        <p>8 Minutes</p>
+                        <p>No</p>
+                        <p>3 times Beer<br>Dark Oak</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Red Wine</p>
+                        <p>5 Sweet Berries</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Very Long<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Hortezucai Muni</p>
+                        <p>5 Sweet Berries<br>3 Brown Mushroom<br>1 Milk Bucket</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>10 Years<br>Any</p>
+                        <p>II</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Hortezucai Bari</p>
+                        <p>5 Sweet Berries<br>3 Red Mushroom<br>1 Milk Bucket</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>15 Years<br>Any</p>
+                        <p>II'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Arancoiuś</p>
+                        <p>5 Glow Berries<br>3 Potatoes<br>1 Dandelion</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>IIII'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Chengai</p>
+                        <p>5 Sweet Berries<br>3 Acacia Leaves</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Cameleoa</p>
+                        <p>5 Sweet Berries<br>3 Bamboo<br>1 Fern</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Yangai</p>
+                        <p>5 Sweet Berries<br>3 Cactus<br>1 Dead Bush</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Zeizhoua</p>
+                        <p>5 Sweet Berries<br>3 Spruce Leaves<br>1 Pumpkin</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>8 Years<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Taolung</p>
+                        <p>5 Sweet Berries<br>3 Wheat<br>2 Sticks</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>4 Years<br>Any</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Zaofu Green</p>
+                        <p>5 Sweet Berries<br>3 Mangrove Leaves<br>1 Scute</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Chumari</p>
+                        <p>5 Sweet Berries<br>3 Birch Leaves<br>1 Sugar Cane</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>6 Years<br>Any</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Whaletail Wine</p>
+                        <p>5 Sweet Berries<br>3 Kelp<br>1 Sea Pickle</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Patajara</p>
+                        <p>5 Sweet Berries<br>8 Carrot<br>2 Cocoa Beans</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>II'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>La Baiāni</p>
+                        <p>5 Sweet Berries<br>3 Bone Meal<br>1 Vine</p>
+                        <p>5 Minutes</p>
+                        <p>No</p>
+                        <p>Long<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Mead</p>
+                        <p>6 Sugar Cane</p>
+                        <p>3 Minutes</p>
+                        <p>No</p>
+                        <p>4 Years<br>Oak</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Apple Mead</p>
+                        <p>6 Sugar Cane<br>Apple</p>
+                        <p>Similar to Mead</p>
+                        <p>No</p>
+                        <p>3 Years<br>Oak</p>
+                        <p>II</p>
+                        <p>+</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Apple Mead</p>
+                        <p>6 Sugar Cane<br>Apple</p>
+                        <p>Similar to Mead</p>
+                        <p>No</p>
+                        <p>4 Years<br>Oak</p>
+                        <p>II</p>
+                        <p>+</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Apple Cider</p>
+                        <p>Lots of Apple</p>
+                        <p>7/8 Minutes</p>
+                        <p>No</p>
+                        <p>3 Years<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Apple Liquor</p>
+                        <p>Lots of Apple</p>
+                        <p>Long</p>
+                        <p>Yes</p>
+                        <p>6 Years<br>Acacia</p>
+                        <p>II'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Whiskey</p>
+                        <p>Wheat</p>
+                        <p>1 min. per Wheat</p>
+                        <p>Yes</p>
+                        <p>Very Long<br>darker</p>
+                        <p>III'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Rum</p>
+                        <p>Lots of Sugar Cane</p>
+                        <p>Short</p>
+                        <p>Yes</p>
+                        <p>Long<br>Oak</p>
+                        <p>IIII</p>
+                        <p>+</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Vodka</p>
+                        <p>A Sixth of a Stack Potatoes</p>
+                        <p>Long</p>
+                        <p>Yes</p>
+                        <p>No</p>
+                        <p>III</p>
+                        <p>-</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Mushroom Vodka</p>
+                        <p>Potatoes, Mushrooms</p>
+                        <p>Very Long</p>
+                        <p>Yes</p>
+                        <p>No</p>
+                        <p>II'</p>
+                        <p>+-</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Gin</p>
+                        <p>9 Wheat<br>Some Blue -Flowers<br>Apple</p>
+                        <p>Short</p>
+                        <p>Yes</p>
+                        <p>No</p>
+                        <p>III</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Tequila</p>
+                        <p>Some Cactus</p>
+                        <p>Long</p>
+                        <p>Yes</p>
+                        <p>Long<br>Birch</p>
+                        <p>III</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Absinthe</p>
+                        <p>Lots of Grass</p>
+                        <p>Short</p>
+                        <p>Yes</p>
+                        <p>No</p>
+                        <p>IIIII'</p>
+                        <p>-</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Green Absinthe</p>
+                        <p>Lots of Grass<br>Another Greenish thing</p>
+                        <p>Normal</p>
+                        <p>Yes</p>
+                        <p>No</p>
+                        <p>IIIIII</p>
+                        <p>+-</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Potato Soup</p>
+                        <p>5 Potatoes<br>Some Grass</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p>+</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Coffee</p>
+                        <p>Lots of Cocoa Beans<br>2 Milk Buckets</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p>++</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Eggnog</p>
+                        <p>5 Eggs<br>A little sugar<br>1 Milk Bucket</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>Short<br>Any</p>
+                        <p>I'</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Sugar Brew</p>
+                        <p>1 Sugar Cane</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Grape Must</p>
+                        <p>1 Sweet Berry</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Potato Mash</p>
+                        <p>1 Potato</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Boiled Herbs</p>
+                        <p>1 Grass</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Boiled Herbs</p>
+                        <p>1 Vine</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Mushroom Brew</p>
+                        <p>1 Red Mushroom</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Mushroom Brew</p>
+                        <p>1 Brown Mushroom</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Chocolately Brew</p>
+                        <p>1 Cocoa Bean</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Blueish Brew</p>
+                        <p>1 Blue Flower</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Poisonous Broth</p>
+                        <p>1 Poisonous Potato</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Sticky Brew</p>
+                        <p>1 Egg</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Stringy Herby Brew</p>
+                        <p>1 Oak Sapling</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Foul Pest</p>
+                        <p>1 Rotten Flesh</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Melon Juice</p>
+                        <p>1 Melon Slice</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Bitter Brew</p>
+                        <p>1 Melon Seed</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Bitter Brew</p>
+                        <p>1 Pumpkin Seed</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Boney Brew</p>
+                        <p>1 Bone Meal</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Choclately Sap</p>
+                        <p>1 Cookie</p>
+                        <p>Short</p>
+                        <p>NO</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Fermented Eye</p>
+                        <p>1 Fermented Spider Eye</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Sad Brew</p>
+                        <p>1 Ghast Tear</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Icewater</p>
+                        <p>1 Snowball</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Glistering Brew</p>
+                        <p>1 Gold Nugget</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Glowing Brew</p>
+                        <p>1 Glowstone Dust</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Boiled Acidy Herbs</p>
+                        <p>1 Grass<br>1 Poisonous Potato</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Green Tea</p>
+                        <p>1 Oak Leave</p>
+                        <p>Short</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Apple Cinnamon Tea</p>
+                        <p>1 Apple<br>1 Wheat Seed<br>1 Dark Oak Log</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Chamomile Tea</p>
+                        <p>1 Oxeye Daisy<br>1 Wheat<br>1 Kelp<br>1 Honey Bottle</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Chocolate Tea</p>
+                        <p>1 Milk Bucket<br>1 Cocoa Bean<br>1 Sugar</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>Cactus Juice</p>
+                        <p>4 Cactus</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>White Jade Tea</p>
+                        <p>1 Lily of the Valley<br>1 White Tulip</p>
+                        <p>1 Minute</p>
+                        <p>No</p>
+                        <p>No</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt=""></a>
+            <span>&copy 2024 Rights Reserved</span>
+        </section>
+        <section>
+            <span class="links">Links</span>
+            <a target="_blank" href="https://store.avatarverse.net/">Store Page</a>
+            <a target="_blank" href="https://avatarverse.net/">Community Forum</a>
+        </section>
+    </footer>
+
+</body>
+
+</html>

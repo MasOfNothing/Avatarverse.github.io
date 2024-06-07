@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monda&display=swap">
+    <script src="https://kit.fontawesome.com/dd8e71c06a.js" crossorigin="anonymous"></script>
+    <title>Locking System - Avatarverse Wiki</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt="Avatarverse Logo"></a>
+        </section>
+        <section class="headertext">
+            <h1>Avatarverse Wiki</h1>
+            <h2>Documentation and insights</h2>
+        </section>
+        <section>
+            <a href="https://www.minecraft.net"><img src="../../images/minecraft logo.png" alt="Minecraft Logo"></a>
+        </section>
+    </header>
+    <div class="pagecontainer">
+        <nav>
+            <section class="nav1">
+                <h4>The World</h4>
+                <ul>
+                    <li><a href="../../index.html">Introduction</a></li>
+                    <li><a href="../theWorld/map.html">Map</a></li>
+                    <li><a href="../theWorld/nations.html">Nations</a></li>
+                    <li><a href="../theWorld/mobs.html">Mobs</a></li>
+                </ul>
+            </section>
+            <section class="nav2">
+                <h4>Roleplay</h4>
+                <ul>
+                    <li><a href="../roleplay/characters.html">Characters</a></li>
+                    <li><a href="../roleplay/bending.html">Bending</a></li>
+                    <li><a href="../roleplay/chatSystem.html">Chat System</a></li>
+                    <li><a href="../roleplay/combatJailing.html">Combat & Jailing</a></li>
+                    <li><a href="../roleplay/brewing.html">Brewing</a></li>
+                    <li><a href="../roleplay/lockingSystem.html" class="selectedblue">Locking System</a></li>
+                    <li><a href="../roleplay/resourcePack.html">Resource Pack</a></li>
+                </ul>
+            </section>
+            <section class="nav3">
+                <h4>Rules & Gameplay</h4>
+                <ul>
+                    <li><a href="../rulesgameplay/generaRules.html">General Rules</a></li>
+                    <li><a href="../rulesgameplay/rpc.html">The Roleplay Council</a></li>
+                    <li><a href="../rulesgameplay/ruleOfWar.html">Rules of War</a></li>
+                    <li><a href="../rulesgameplay/commands.html">Commands</a></li>
+                </ul>
+            </section>
+            <section class="nav4">
+                <h4>Archives</h4>
+                <ul>
+                    <li><a href="../archives/timeline.html">Roleplay Timeline</a></li>
+                    <li><a href="../archives/historyAcknowledgements.html">Server History & Acknowlegements</a></li>
+                    <li><a href="../archives/faq.html">FAQ</a></li>
+                </ul>
+            </section>
+            <section class="nav5">
+                <ul>
+                    <h4>Social Media</h4>
+                    <li><a target="_blank" href="https://www.youtube.com/@avatarversemc" class="media"><i
+                                class="fa-brands fa-square-youtube"></i>Youtube</a></li>
+                    <li><a target="_blank" href="https://www.tiktok.com/@play.avatarverse.net" class="media"><i
+                                class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/avatarversemc/" class="media"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li><a target="_blank" href="https://disboard.org/server/join/607348576045105162" class="media"><i
+                                class="fa-brands fa-discord"></i>Discord</a></li>
+                </ul>
+            </section>
+            <section class="nav6">
+                <h4>Links</h4>
+                <ul>
+                    <li><a target="_blank" href="https://store.avatarverse.net/">Store Page</a></li>
+                    <li><a target="_blank" href="https://avatarverse.net/">Community Forum</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <main>
+            <h3>Locking System</h3>
+            <p>Avatarverse makes use of various plugins in order to help enchance the Roleplay and Gameplay
+                experience. The locking system provides you with the ability to lock doors and chests, protecting them
+                from being destroyed, password protect them, allow only certain people to access them, or even allow
+                public access while retaining protection.</p>
+            <section>
+                <h4>Private Locking</h4>
+                <p>Protect a container, door, or other block, making it private to you. Only you and players you
+                    specified can access it. </p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/lock</span> or <span class="cmd">/cprivate</span> - Look at block to lock to
+                        you only</li>
+                    <li><span class="cmd">/lock (or cprivate) &lt;player&gt; &lt;player&gt; ...</span> - Look at block
+                        to lock to you and specified players only</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Add/Remove Player with Private Locking</h4>
+                <p>Modifies the access list of a protected block, allowing you to add or remove players.</p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/modify &lt;add|remove&gt; &lt;player&gt;</span> - will add player to the
+                        access list of the protected block</li>
+                </ul>
+
+            </section>
+
+            <section>
+                <h4>Place Only/Donation Access</h4>
+                <p>Sets a block to donation mode, where anyone can put items into the container but cannot take items
+                    out.</p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/cdonation</span> - while looking at a chest will set it to donation mode</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Password Locking</h4>
+                <p>Protects a container, door, or other block with a password. Anyone with the password can access it.
+                </p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/cpassword &lt;password&gt;</span> - lock block with the password while
+                        looking at it</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Password Unlocking</h4>
+                <p>Allows you to unlock a block that is protected with a password by providing the correct password.</p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/cunlock &lt;password&gt;</span> - unlock block locked with the password</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Unlocking</h4>
+                <p>Allows access and removes the protection from a container, door, or other block, making it accessible
+                    to anyone.</p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/unlock</span> - while looking at locked block</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Protected Public Access</h4>
+                <p>Sets a block to public mode, where anyone can access it, but retains protection & your ownership.</p>
+                <p><span class="bold">Usage</span></p>
+                <ul>
+                    <li><span class="cmd">/cpublic</span> - while looking at a block</li>
+                </ul>
+            </section>
+
+
+        </main>
+    </div>
+
+    <footer>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt=""></a>
+            <span>&copy 2024 Rights Reserved</span>
+        </section>
+        <section>
+            <span class="links">Links</span>
+            <a target="_blank" href="https://store.avatarverse.net/">Store Page</a>
+            <a target="_blank" href="https://avatarverse.net/">Community Forum</a>
+        </section>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monda&display=swap">
+    <script src="https://kit.fontawesome.com/dd8e71c06a.js" crossorigin="anonymous"></script>
+    <title>Mobs - Avatarverse Wiki</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt="Avatarverse Logo"></a>
+        </section>
+        <section class="headertext">
+            <h1>Avatarverse Wiki</h1>
+            <h2>Documentation and insights</h2>
+        </section>
+        <section>
+            <a href="https://www.minecraft.net"><img src="../../images/minecraft logo.png" alt="Minecraft Logo"></a>
+        </section>
+    </header>
+    <div class="pagecontainer">
+        <nav>
+            <section class="nav1">
+                <h4>The World</h4>
+                <ul>
+                    <li><a href="../../index.html">Introduction</a></li>
+                    <li><a href="../theWorld/map.html">Map</a></li>
+                    <li><a href="../theWorld/nations.html">Nations</a></li>
+                    <li><a href="../theWorld/mobs.html" class="selectedgray">Mobs</a></li>
+                </ul>
+            </section>
+            <section class="nav2">
+                <h4>Roleplay</h4>
+                <ul>
+                    <li><a href="../roleplay/characters.html">Characters</a></li>
+                    <li><a href="../roleplay/bending.html">Bending</a></li>
+                    <li><a href="../roleplay/chatSystem.html">Chat System</a></li>
+                    <li><a href="../roleplay/combatJailing.html">Combat & Jailing</a></li>
+                    <li><a href="../roleplay/brewing.html">Brewing</a></li>
+                    <li><a href="../roleplay/lockingSystem.html">Locking System</a></li>
+                    <li><a href="../roleplay/resourcePack.html">Resource Pack</a></li>
+                </ul>
+            </section>
+            <section class="nav3">
+                <h4>Rules & Gameplay</h4>
+                <ul>
+                    <li><a href="../rulesgameplay/generaRules.html">General Rules</a></li>
+                    <li><a href="../rulesgameplay/rpc.html">The Roleplay Council</a></li>
+                    <li><a href="../rulesgameplay/ruleOfWar.html">Rules of War</a></li>
+                    <li><a href="../rulesgameplay/commands.html">Commands</a></li>
+                </ul>
+            </section>
+            <section class="nav4">
+                <h4>Archives</h4>
+                <ul>
+                    <li><a href="../archives/timeline.html">Roleplay Timeline</a></li>
+                    <li><a href="../archives/historyAcknowledgements.html">Server History & Acknowlegements</a></li>
+                    <li><a href="../archives/faq.html">FAQ</a></li>
+                </ul>
+            </section>
+            <section class="nav5">
+                <ul>
+                    <h4>Social Media</h4>
+                    <li><a target="_blank" href="https://www.youtube.com/@avatarversemc" class="media"><i
+                                class="fa-brands fa-square-youtube"></i>Youtube</a></li>
+                    <li><a target="_blank" href="https://www.tiktok.com/@play.avatarverse.net" class="media"><i
+                                class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/avatarversemc/" class="media"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li><a target="_blank" href="https://disboard.org/server/join/607348576045105162" class="media"><i
+                                class="fa-brands fa-discord"></i>Discord</a></li>
+                </ul>
+            </section>
+            <section class="nav6">
+                <h4>Links</h4>
+                <ul>
+                    <li><a target="_blank" href="https://store.avatarverse.net/">Store Page</a></li>
+                    <li><a target="_blank" href="https://avatarverse.net/">Community Forum</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <main>
+            <h3>Mobs</h3>
+            <p>Avatarverse has custom mobs with unique appearances and abilities that can either be found in the wild or
+                purchased. Many of these can become pets that follow you around, can be ridden across great distances,
+                or fulfill some other purpose. They can be spawned and despawned at will, protecting them from being
+                stolen or killed.</p>
+
+            <section>
+                <h4>Mob Menu</h4>
+                <p>The mob menu is the central place to manage your mobs and can be accessed with <span
+                        class="cmd">/mob</span> or <span class="cmd">/mobs</span> or through the character menu <span
+                        class="cmd">/char</span>.</p>
+                <p>Any mobs you purchase for your character will appear towards the bottom of the menu.</p>
+                <p>When initially purchased, your mob will be placed as an egg in your mob menu with can then be hatched
+                    and given a name and gender. <a href="https://store.avatarverse.net/package/6049272">Sponsors</a>
+                    get 2 hatches for every mob they purchase.</p>
+                <p>Selecting a hatched mob in the menu will open a submenu that allows you to spawn the mob, change its
+                    name or gender, or transger it to another character.</p>
+            </section>
+
+            <section>
+                <h4>Health & Energy</h4>
+                <p>Every mob has a certain amount of health. If the health reaches zero, the mob is forcibly dismissed,
+                    and you will have to spawn it again later for it to heal naturally. The speed of natural
+                    regeneration is proportionate to the mob's energy level, which gradually depletes after performing
+                    certain actions or just existing. If your mob's energy level reaches 0, it will also despawn, and
+                    you will need to deploy it again and feed it for its energy level to recover.</p>
+                <p>To feed a mob, shift and right-click on it with food in your hand. It will either dislike, like, or
+                    love the food you fed it. This is important for taming wild mobs and will be important for a future
+                    aspect of mobs called 'alignment' but otherwise matters little. If your mob eats the food, it will
+                    gain energy from it.</p>
+            </section>
+
+            <section>
+                <h4>Commanding your mobs</h4>
+                <p>All mobs can be commanded to perform certain actions through 2 ways:</p>
+                <ul class="dashList">
+                    <li>Spaking its name + the command in chat</li>
+                    <li>Using the command <span class="cmd">/mob command &lt;mob&gt; &lt;command&gt;</span> - helpful
+                        to command your mob silently.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Taming</h4>
+                <p>Taming a mob requires going up to it and feeding it foods it likes or loves. Feeding it loved foods
+                    will maximize your chance of taming the mob. To feed, shift and right-click the mob with the food in
+                    your hand repeatedly until you are prompted to name the mob. Type the name in chat and it will be
+                    bonded with you. This guide will not specify which foods each mob loves; instead, that information
+                    will be experimented with and documented in books in game.</p>
+            </section>
+
+            <section>
+                <h4>Mounting</h4>
+                <p>Some mobs can be mounted by one or more players. The mob's owner is the only one who can drive
+                    (steer) it. To mount your mob, right-click on it. If the mob has room for other passengers, a friend
+                    can also right-click the mob and it will send a "ride request" to the owner. The owner can then
+                    accept the request with the mob command <span class="cmd">accept</span> or <span
+                        class="cmd">mount</span> (see below for specific syntax). Then the friend will mount the mob as
+                    a passenger.</p>
+            </section>
+
+            <section>
+                <h4>Current Mobs</h4>
+                <p>The Avatar world is full of entertaining creatures, many of which we plan to add, but right now we
+                    are limited to the following:</p>
+                <h5 class="bold">Tameable, not buyable</h5>
+                <ul class="circleList">
+                    <li>Sky Bison</li>
+                    <li>Polar Bear Dog</li>
+                    <li>Winged Lemur</li>
+                    <li>Ostrich Horse</li>
+                    <li>Dragon</li>
+                </ul>
+                <h5 class="bold">Tameable and buyable</h5>
+                <ul class="circleList">
+                    <li>Hippo Cow</li>
+                </ul>
+                <h5 class="bold">Buyable, not tameable</h5>
+                <ul class="circleList">
+                    <li>Eel Hound</li>
+                    <li>Fire Ferret</li>
+                    <li>Flying Dolphin</li>
+                    <li>Bear</li>
+                    <li>Cat Dear</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Sky Bison</h4>
+                <p>The Sky Bison is a large flying bison native to the Air Nation. They occasionally spawn outside of
+                    the four cardinal Air Temples. They have 30 hearts of health and can be mounted, carrying up to 5
+                    people at a time. They are the fastest flying mob and are great for traveling across long distances.
+                    They can be tamed only by Air Nation characters who have earned the Bhante rank or higher.</p>
+
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Polar Bear Dog</h4>
+                <p>The Polar Bear Dog is a cross between a polar bear and a dog that spawns naturally in the Iqaluit
+                    Polar Bear Dog node and the tundra of Arviat province of the Northern Water Tribe and Apaluk
+                    province near the South Pole. It has 30 hearts of health and can be mounted by up to 3 people at
+                    once while still moving quite quickly across both land and sea.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Winged Lemur</h4>
+                <p>The Winged Lemur is an adorable flying mob that spawns naturally in and around the Air Temples. Right
+                    now its only function is to follow its owner around, but more features are planned.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Ostrich House</h4>
+                <p>The Ostrich Horse is a replacement of Minecraft's horse. It travels considerably faster and will
+                    follow its owner around when not being ridden.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Dragon</h4>
+                <p>The Dragons are massive fire-breathing dragons that descend from either Ran or Shaw and are part of
+                    an endangered population. There are only a handful of dragons in the world, and they are mostly
+                    inherited as heirlooms in the dragonriding families Dainagon and Raa, or live in the Sun Warrior
+                    city of La Bayan under the watchful eye of the Sun Chief. They only take commands in Solandu, the
+                    Sun Warrior language.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>taelis ("leave")</p>
+                        <p>vīs ("go"), taelaros ("goodbye"), tae ("bye"), plunaqui ("dismissed")</p>
+                        <p>Dismisses/despawns dragon</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>vasdradīs ("breathe fire")</p>
+                        <p></p>
+                        <p>Makes the dragon begin a Fire Stream</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>apīs ("stop")</p>
+                        <p></p>
+                        <p>Makes the dragon stop breathing fire</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>enunīs ("allow")</p>
+                        <p></p>
+                        <p>Allows a rider to request to mount the dragon</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>perpatīs ("eject")</p>
+                        <p></p>
+                        <p>Dismounts one or both riders</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Hippo Cow</h4>
+                <p>The Hippo Cow is a voracious and deceptively ferocious creature that, if tamed, will fight alongside
+                    its owner during combat by biting enemies. It can also be mounted, though it moves more slowly than
+                    most other mounts. It spawns naturally in plains biomes around the world but is stubborn and not
+                    easily tamed. It can also be purchased in <a href="https://store.avatarverse.net/category/mobs">the
+                        Store</a>.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Eel Hound</h4>
+                <p>The Eel Hound is a fast and versatile mount that can travel at record speeds across both land and
+                    sea. It has 20 hearts and can carry up to 2 riders. It does not spawn naturally and can only be
+                    purchased in <a href="https://store.avatarverse.net/category/mobs">the Store</a>.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Flying Dolphin Fish</h4>
+                <p>The Flying Dolphin Fish is a quick and fun aquatic mount that can carry up to 2 riders across oceans
+                    at high speeds. It also has the ability to glide through the air after jumping out of the water,
+                    giving the animal its name. To activate the gliding ability, hold the jump key and left-click while
+                    midair. It does not spawn naturally and can only be purchased in <a
+                        href="https://store.avatarverse.net/category/mobs">the Store</a>.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Bear</h4>
+                <p>The Bear is a loveable and ridable pet that was inspired by Earth King Kuei's pet bear Bosco. The
+                    bear is strong and can take up to 2 riders on its back while still reaching good speeds. It does not
+                    spawn naturally and can only be purchased in <a
+                        href="https://store.avatarverse.net/category/mobs">the Store</a>.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Cat Deer</h4>
+                <p>The Cat Deer is a fast and durable travel companion that seats 2 riders. It has 20 hearts and is
+                    faster than the Polar Bear Dog but slightly slower than the Ostrich Horse. The animal companion of
+                    the first Avatar, Avatar Wan, was a Cat Deer. It does not spawn naturally and can only be purchased
+                    in <a href="https://store.avatarverse.net/category/mobs">the Store</a>.</p>
+                <div class="table">
+                    <div class="tabletitle">
+                        <p>Command</p>
+                        <p>Aliases</p>
+                        <p>Description</p>
+                        <p>Arguments</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>leave</p>
+                        <p>go, goodbye, bye, dismissed</p>
+                        <p>Dismisses/despawns mob</p>
+                        <p></p>
+                    </div>
+                    <div class="tableitems">
+                        <p>accept</p>
+                        <p>mount</p>
+                        <p>Allows a ride requester to mount the mob</p>
+                        <p>[no arg] - allows whoever requested, if there is only one <br> [character] - allows specified
+                            character to mount if there is more than one request</p>
+                    </div>
+                    <div class="tableitems">
+                        <p>eject</p>
+                        <p>dismount</p>
+                        <p>Dismounts riders(s)</p>
+                        <p>[no arg] - ejects all riders, including owner/driver <br> [others] - ejects everyone but you
+                            <br> [character] - ejects the specified character
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <section>
+            <a href="./index.html"><img src="../../images/logo.png" alt=""></a>
+            <span>&copy 2024 Rights Reserved</span>
+        </section>
+        <section>
+            <span class="links">Links</span>
+            <a target="_blank" href="https://store.avatarverse.net/">Store Page</a>
+            <a target="_blank" href="https://avatarverse.net/">Community Forum</a>
+        </section>
+    </footer>
+
+</body>
+
+</html>
