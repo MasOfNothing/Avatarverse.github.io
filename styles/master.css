@@ -273,6 +273,10 @@ footer img {
         max-width: 30%;
     }
 
+    nav li {
+        font-size: 0.8em;
+    }
+
     nav .media {
         flex-direction: column;
         align-items: center;
