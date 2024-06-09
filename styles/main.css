@@ -263,6 +263,22 @@ li .copytext {
     border-radius: 0;
 }
 
+.togetherimg.alignCenter {
+    justify-content: center;
+}
+
+.togetherimg.alignLeft {
+    justify-content: start;
+}
+
+.togetherimg.alignRight {
+    justify-content: end;
+}
+
+.smallerimg {
+    max-width: 100px;
+}
+
 .smallimg {
     max-width: 200px;
 }
@@ -277,6 +293,8 @@ li .copytext {
 
 .alignCenter {
     text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .alignRight {
