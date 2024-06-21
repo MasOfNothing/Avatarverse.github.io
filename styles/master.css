@@ -206,6 +206,12 @@ nav a {
     text-shadow: 0 0 5px yellow !important;
 }
 
+.nav7 a:hover,
+.selectedpurple {
+    color: rgb(238, 114, 238) !important;
+    text-shadow: 0 0 5px purple !important;
+}
+
 /* MAIN */
 main {
     max-width: 80%;
