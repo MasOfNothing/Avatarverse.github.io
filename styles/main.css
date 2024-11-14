@@ -99,10 +99,8 @@ main iframe {
     padding: 1em 0.5em;
     border: solid 2px white;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .tabletitle p {
