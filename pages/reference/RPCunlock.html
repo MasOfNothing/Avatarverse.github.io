@@ -127,9 +127,9 @@
 
             <section>
                 <h4>Basic Requirements</h4>
-                <p>There are a handful of basic requirements that apply to <span class="bold"style="color:white;">all unlocks</span> to show that
+                <p>There are a handful of basic requirements that apply to <span class="bold"style="color:white;">all unlocks</span> besides <a href="#basic_subs">basic subelements</a> to show that
                 you are a capable roleplayer and can be trusted with the abilities given, as they can be disporportionately powerful.</p>
-
+                
                 <h5 class= "bold"style="color:grey;">In general, the Roleplay Council is looking for these qualities in prospective applicants:</h5>
                  <p>- In-roleplay presence<br>
                     - In-game activity<br>
@@ -141,7 +141,26 @@
                     - Good character bio<br>
                     - Journaling</p>
                     <br><br><br><br>
-
+                    
+                <div id="basic_subs"></div>
+                <h4 style="color:rgb(243, 243, 243)">Basic Subelements</h4>
+                    <label for="subelement_select">Select a subelement to see the guidelines</label>
+                    <select name="basic_subelements" id="subelement_select" onchange="updateText('subelement_select', 'subelement_output')">
+                        <option value="">-- Select a subelement --</option>
+                    <optgroup style="color:grey"label="Airbending">
+                        <option value="sound"style="color:#3E4D52"class="bold">Sound</option>
+                        <option value="spiritual"style="color:#CAB0FF"class="bold">Spiritual</option></optgroup>
+                    <optgroup style="color:blue"label="Waterbending">
+                        <option value="healing"style="color:#36D2E3"class="bold">Healing</option>
+                        <option value="plant"style="color:#008048"class="bold">Plant</option>
+                        <option value="blood"style="color:#630000"class="bold">Blood</option></optgroup>
+                    <optgroup style="color:green"label="Earthbending">
+                        <option value="metal"style="color:#C7C5C5"class="bold">Metal</option>
+                        <option value="lava"style="color:#C73800"class="bold">Lava</option></optgroup>
+                    <optgroup style="color:red"label="Firebending">
+                        <option value="lightning"style="color:#7df9ff"class="bold">Lightning</option></optgroup>
+                     </select>
+                     <p id="subelement_output">The guidelines will appear here.</p><br><br><br><br>
                 <h3><span class="bold selectedgray">Air</span></h3>
                 <div id="flight"></div>
                 <h5 class= "bold"style="color:#dbf5ff">Flight Criteria:</h5>
@@ -153,7 +172,7 @@
                 <h5 class= "bold"style="color:#a76489">Suffocation Criteria:</h5>
                  <p>- Indepth knowledge of the physical side of airbending<br>
                   <span style="width: 40px; display: inline-block;"></span>- Includes knowledge of physics and how airbending interacts with your environment<br>
-                    - Disregard for the sanctity of life **or** the ability to disregard life under certain circumstances<br>
+                    - Disregard for the sanctity of life <span class="bold">or</span> the ability to disregard life under certain circumstances<br>
                     - An ideological shift, whether subtle or obvious<br>
                     - Evidence of some mental instability<br>
                   <span style="width: 40px; display: inline-block;"></span>- Just evidence that your character isn't *fully* sane. It doesn't have to be a full mental breakdown.
@@ -186,17 +205,6 @@
                     - Perfectionism, ambition, goal-oriented personality<br>
                     - Having trained for it a good amount of time, evidenced through several journals<br>
                     </p>
-                <div id="rainbow_fire"></div>
-                <h5 class= "bold"style="color:#c07410">Rainbow Fire Criteria:</h5>
-                  <p>- Understand the deeper philosophy behind Firebending that is most notably and commonly observed by the Sun Warriors and have 
-                    this represented through a handful of journals.<br>
-                    - Know the Dragon Dance created by DarTheCzar<br>
-                    - Pass assessment of your character's... character.<br>
-                    <div id="dragon_judgement"></div>
-                    - Subsequent survival of judgement by a dragon<br>
-                 <br>
-                 <span class="bold"style=color:white>There are a number of hidden criteria you will be judged against which will affect your pass/failure rate. 
-                 These figures will not be shared or explained.</span>
                 <div id="white_fire"></div>
                 <h5 class= "bold"style="color:#ffffff">White Fire Criteria:</h5>
                  <p>
@@ -207,6 +215,27 @@
                     - Compulsive Pragmatism<br>
                     - Emotional Intensity<br>
                     - A deep understanding of fire philosophy & the duality of fire.</p>
+
+                <div id="rainbow_fire"></div>
+                <h5 class= "bold"style="color:#c07410">Rainbow Fire Criteria:</h5>
+                  <p>- Understand the deeper philosophy behind Firebending that is most notably and commonly observed by the Sun Warriors and have 
+                    this represented through a handful of journals.<br>
+                    - Know the Dragon Dance created by DarTheCzar<br>
+                    - Pass assessment of your character's... character.</p>
+                    <div id="dragon_judgement"></div>
+                    - Subsequent survival of judgement by a dragon<br>
+                    <p><span style="width: 40px; display: inline-block;"></span>• To undergo Dragon Judgment, a player must open an RPC ticket using the "RPC Unlock" category 
+                    in the #support channel’s dropdown menu.<br>
+                    <span style="width: 40px; display: inline-block;"></span>• Once the ticket is opened, the RPC will assess the character’s likelihood for surviving judgment and coming 
+                    out enlightened based on their<br>
+                    <span style="width: 53px; display: inline-block;"></span>in-game actions, character bio, and any relevant journals.<br>
+                    <span style="width: 80px; display: inline-block;"></span>• There is no strict format for presenting this information, but it must be readily accessible to the RPC for review. This can include in-game<br>
+                    <span style="width: 93px; display: inline-block;"></span>roleplay logs, 
+                    written journals, or other documented evidence demonstrating the character’s <span class="obfuscated" id="text" style="color:#9900e1;">no peeking naughty naughty</span></p>
+
+                 <br>
+                 <span class="bold selectedwhite;">There are a number of hidden criteria you will be judged against which will affect your pass/failure rate. 
+                 These figures will not be shared or explained.</span></p>
                 <div id="cosmetic_fire"></div>
                 <h5 class= "bold"style="color:#c029c0">Cosmetic Firebending Criteria:</h5>
                  <label for="colour_select">Select a fire colour to see the criteria</label>
@@ -221,46 +250,15 @@
                         cursor: pointer;
                     }
                 </style>
-                 <select name="cosmetic_colours"id="colour_select"onchange="updateText()">
+                 <select name="cosmetic_colours" id="colour_select" onchange="updateText('colour_select', 'fire_colour_selection')">
                     <option value="">-- Select a colour --</option>
                     <option value="red">Red</option>
                     <option value="green">Green</option>
                     <option value="purple">Purple</option>
                     <option value="magenta">Magenta</option>
                  </select>
-                 <p id="output">The criteria will appear here.</p>
-                 <script>
-                    function updateText() {
-                        let select = document.getElementById("colour_select");
-                        let output = document.getElementById("output");
-                        
-                        // Get the selected option value
-                        let selectedValue = select.value;
-            
-                        // Define messages for each option
-                        let messages = {
-                            "red": `<h4 style="color:#e14c00;">Red Flames</h4>
-                                <p>Have survived the <a href="#dragon_judgement">Dragon Judgement</a></p>`,
-                            "green": `<h4 style="color:#128f00;">Green Flames</h4>
-                                <p>- Understanding that envy is a natural occurence, but instead of allowing the envy to fill you with spite 
-                                and negative emotions you allow it to be the guideline for your own growth and renewal<br>
-                                - Calmness/Tranquility<br>
-                                - Have already attained Red Fire</p>`,
-                            "purple": `<h4 style="color:#9900e1;">Purple Flames</h4>
-                                <p>- Understanding the importance of hierarchy and caste and having ambition, but retaining a level of humility<br>
-                                <span style="width: 40px; display: inline-block;"></span>- This is threading the line between self-sufficiency but not so stubborn you cannot accept/ask for help<br>
-                                - Wisdom/Instropection/Creativity<br>
-                                - Have already attained Red Fire</p>`,
-                            "magenta": `<h4 style="color:#e100c6;">Magenta Flames</h4>
-                                <p>- Understanding the line between being kind or caring to others, and leaving yourself vulnerable to deception/being taken advantage of if you do so too much<br>
-                                - High-energy character disposition, but a deep awareness of their surroundings and an ability to "read the room"<br>
-                                - Have already attained Red Fire</p>`,
-                        };
-            
-                        // Update the text or show a default message
-                        output.innerHTML = messages[selectedValue] || "Please select an option.";
-                    }
-                </script><br><br><br><br>
+                 <p id="fire_colour_selection">The criteria will appear here.</p>
+                 <br><br><br><br>
             
                 <h3><span class="bold selecteddark_grey">Other</span></h3>
                 <div id="dragons"></div>
@@ -288,6 +286,94 @@
 
                     
             </section>
+                    <script>
+                    function updateText(selectId, outputId) {
+                        let select = document.getElementById(selectId);
+                        let output = document.getElementById(outputId);
+                        let selectedValue = select.value;
+                
+                        // Define messages for subelements
+                        let subelementMessages = {
+                            "sound": `<h4 style="color:#3E4D52;">Soundbending</h4>
+                                       <p>- Learn and understand sound waves as a percussive wave through air<br>
+                                          - Have patience and the ability to truly listen to your environment<br>
+                                          - The ability to exist in the present rather than dwell on the past</p>`,
+                            "spiritual": `<h4 style="color:#CAB0FF;">Spiritual Projection</h4>
+                                       <p>- Harbors respect for both spirits and the spiritual nature of the world<br>
+                                          - A strong understanding of airbending philosophy</p>`,
+                            "healing": `<h4 style="color:#36D2E3;">Healing</h4>
+                                       <p>- Learn about chi pathways and how to guide chi along them<br>
+                                          - Learn basic healing unaided by bending and understand how bending can promote natural regeneration</p>`,
+                            "plant": `<h4 style="color:#008048;">Plantbending</h4>
+                                       <p>- Learn about and acknowledge the presence of water inside solid objects</p>`,
+                            "blood": `<h4 style="color:#630000;">Bloodbending</h4>
+                                       <p>- Learn to see water inside the body as a resource<br>
+                                          - The ability to corrupt their morals in an act of self-preservation or to fulfill ambition</p>`,
+                            "metal": `<h4 style="color:#C7C5C5;">Metalbending</h4>
+                                       <p>- Learn about the presence of earthen impurities within metal and acknowledge their bendability<br><br>
+                                          • Metalbending and Lavabending are <span class="bold">mutually exclusive</span></p>`,
+                            "lava": `<h4 style="color:#C73800;">Lavabending</h4>
+                                       <p>- Unwavering confidence in your earthbending capabilities<br>
+                                          - A loose, fluid, and emotionally open attitude<br>
+                                          - Prone to making impulsive or risky decisions<br><br>
+                                          • Metalbending and Lavabending are <span class="bold">mutually exclusive</span></p>`,
+                            "lightning": `<h4 style="color:#7df9ff;">Lightning</h4>
+                                       <p>- Understand potential difference<br>
+                                          - Demonstrate the ability to be calm and collected when bending<br>
+                                          - Learn the ability to separate your chi to create a potential difference</p>`,
+                        };
+                
+                        // Define messages for fire colours
+                        let colourMessages = {
+                            "red": `<h4 style="color:#e14c00;">Red Flames</h4>
+                                    <p>Have survived the <a href="#dragon_judgement">Dragon Judgement</a></p>`,
+                            "green": `<h4 style="color:#128f00;">Green Flames</h4>
+                                    <p>- Understanding that envy is a natural occurence, but instead of allowing the envy to fill you with spite 
+                                    and negative emotions you allow it to be the guideline for your own growth and renewal<br>
+                                    - Calmness/Tranquility<br>
+                                    - Have already attained Red Fire</p>`,
+                            "purple": `<h4 style="color:#9900e1;">Purple Flames</h4>
+                                    <p>- Understanding the importance of hierarchy and caste and having ambition, but retaining a level of humility<br>
+                                    <span style="width: 40px; display: inline-block;"></span>- This is threading the line between self-sufficiency but not so stubborn you cannot accept/ask for help<br>
+                                    - Wisdom/Instropection/Creativity<br>
+                                    - Have already attained Red Fire</p>`,
+                            "magenta": `<h4 style="color:#e100c6;">Magenta Flames</h4>
+                                    <p>- Understanding the line between being kind or caring to others, and leaving yourself vulnerable to deception/being taken advantage of if you do so too much<br>
+                                    - High-energy character disposition, but a deep awareness of their surroundings and an ability to "read the room"<br>
+                                    - Have already attained Red Fire</p>`,
+                        };
+                
+                        // Choose the right message set based on the dropdown
+                        let messages = (selectId === "subelement_select") ? subelementMessages : colourMessages;
+                
+                        // Update the output
+                        output.innerHTML = messages[selectedValue] || "Please select an option.";
+                    }
+                
+                    // Initialize both dropdowns on page load
+                    window.onload = function () {
+                        updateText('subelement_select', 'subelement_output');
+                        updateText('colour_select', 'fire_colour_selection');
+                    };
+                </script>
+                     <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            function obfuscateText() {
+                                const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-=_+[]{}|;:',.<>/?`~";
+                                let target = document.getElementById("text");
+                                let originalText = target.textContent.split(""); // Use existing text
+                                
+                                setInterval(() => {
+                                    let scrambled = originalText.map(char => 
+                                        char === " " ? " " : chars[Math.floor(Math.random() * chars.length)]
+                                    ).join("");
+                                    target.textContent = scrambled;
+                                }, 100); // Adjust speed here (lower = faster)
+                            }
+                    
+                            obfuscateText(); // No hardcoded text, just scrambles what's already there
+                        });
+                    </script>
 
 
 
